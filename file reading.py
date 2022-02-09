@@ -12,9 +12,9 @@ print(names_file.read())
 
 # the first two lines of the file
 print(names_file.readline())
-print(names_file.readline())
+print(names_file.readline()[1])
 
-# le aranjeaza in array, daca pui [1] citeste primul rand
+# le aranjeaza in lista, daca pui [1] citeste primul rand
 
 print(names_file.readlines())
 
